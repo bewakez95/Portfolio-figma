@@ -349,6 +349,9 @@ footer {
   }
 }
 @media (width <= 768px) {
+  .primary-header {
+    min-width: 70%;
+  }
   .primary-header .logo {
     justify-content: space-between;
   }
@@ -371,5 +374,21 @@ footer {
   }
   .primary-header #check:checked ~ ul {
     right: calc(100% - 9rem);
+  }
+  .hero .image {
+    max-width: 100%;
+  }
+  .award-container {
+    max-width: 45%;
+  }
+  .award-container .award-list .awards {
+    flex-wrap: wrap;
+  }
+  .award-container .award-list .awards .award-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=style.css.map */
