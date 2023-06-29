@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <input type="checkbox" id="darkmode" class="dark-mode-check" />
+    <div class="wrapper">
+      <!-- dark mode -->
+      <label for="darkmode">
+        <i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i
+      ></label>
+      <!-- navbar -->
+      <header class="flex primary-header">
+        <nav class="logo flex">
+          <div class="left flex">
+            <h1>Bibek</h1>
+            <h2 class="line">Soft. Engineer</h2>
+          </div>
+          <div class="right flex">
+            <input type="checkbox" id="check" />
+            <label for="check" class="menu-icon">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="flex navigation">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#skills">Skill</a></li>
+              <li><a href="#recent">projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- hero -->
+      <div class="hero flex" id="hero">
+        <div class="image">
+          <img src="../man-150942_1280.webp" alt="" />
+        </div>
+        <div class="desc">
+          <h1>I am Bibek</h1>
+          <h3>Full stack developer</h3>
+          <h4>I love to chat with machine!</h4>
+          <button class="cv">
+            Download CV <i class="fa-solid fa-download"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Awards -->
+      <div class="award-container">
+        <div class="award-list flex">
+          <div class="awards flex">
+            <div class="circle flex">
+              <div class="icon">
+                <i class="fa-solid fa-award fa-2x"></i>
+              </div>
+            </div>
+
+            <div class="award-desc">
+              <h2>IT graduate</h2>
+              <h4>Distinction</h4>
+            </div>
+          </div>
+          <div class="awards flex">
+            <div class="circle flex">
+              <div class="icon">
+                <i class="fa-solid fa-award fa-2x"></i>
+              </div>
+            </div>
+
+            <div class="award-desc">
+              <h2>IT graduate</h2>
+              <h4>Distinction</h4>
+            </div>
+          </div>
+          <div class="awards flex">
+            <div class="circle flex">
+              <div class="icon">
+                <i class="fa-solid fa-award fa-2x"></i>
+              </div>
+            </div>
+
+            <div class="award-desc">
+              <h2>IT graduate</h2>
+              <h4>Distinction</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill -->
+      <div class="skill-container flex" id="skills">
+        <i class="fa-brands fa-html5 fa-7x"></i>
+        <i class="fa-brands fa-css3-alt fa-7x"></i>
+        <i class="fa-brands fa-js fa-7x"></i>
+        <i class="fa-brands fa-node-js fa-7x"></i>
+      </div>
+
+      <!-- My recent work -->
+      <div class="grid work-container" id="recent">
+        <h1>My Recent Work</h1>
+        <div class="flex work-list">
+          <div class="work_items grid">
+            <div class="items-demo">
+              <img
+                src="./Screen Shot 2023-06-22 at 3.57.53 pm.png"
+                alt="Demo"
+              />
+            </div>
+            <div class="item-link">
+              <a href="#">Portfolio with react</a>
+            </div>
+          </div>
+          <div class="work_items grid">
+            <div class="items-demo">
+              <img
+                src="./Screen Shot 2023-06-22 at 3.57.53 pm.png"
+                alt="Demo"
+              />
+            </div>
+            <div class="item-link">
+              <a href="#">Portfolio with react</a>
+            </div>
+          </div>
+          <div class="work_items grid">
+            <div class="items-demo">
+              <img
+                src="./Screen Shot 2023-06-22 at 3.57.53 pm.png"
+                alt="Demo"
+              />
+            </div>
+            <div class="item-link">
+              <a href="#">Portfolio with react</a>
+            </div>
+          </div>
+          <div class="work_items grid">
+            <div class="items-demo">
+              <img
+                src="./Screen Shot 2023-06-22 at 3.57.53 pm.png"
+                alt="Demo"
+              />
+            </div>
+            <div class="item-link">
+              <a href="#">Portfolio with react</a>
+            </div>
+          </div>
+          <div class="work_items grid">
+            <div class="items-demo">
+              <img
+                src="./Screen Shot 2023-06-22 at 3.57.53 pm.png"
+                alt="Demo"
+              />
+            </div>
+            <div class="item-link">
+              <a href="#">Portfolio with react</a>
+            </div>
+          </div>
+          <div class="work_items grid">
+            <div class="items-demo">
+              <img
+                src="./Screen Shot 2023-06-22 at 3.57.53 pm.png"
+                alt="Demo"
+              />
+            </div>
+            <div class="item-link">
+              <a href="#">Portfolio with react</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- about me -->
+      <!-- <div class="about-me flex">
+        <div class="desc flex">
+          <h1>About me</h1>
+          <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+          <h3>Interest</h3>
+          <p>E-sports, Football, Travelling..</p>
+        </div>
+        <div class="image">
+          <img src="../man-150942_1280.webp" alt="Man image" />
+        </div>
+      </div> -->
+
+      <!-- get in touch -->
+      <section class="section6 flex" id="contact">
+        <h2 class="title">Get in touch</h2>
+        <div class="socials flex">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <h2 class="title">OR</h2>
+        <div class="email-section flex">
+          <div class="email flex">
+            <p>Bewakez95@gmail.com</p>
+            <a href="mailto:bewakez95@gmail.com">
+              <div class="send">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+        <i class="fa-regular fa-copyright"></i>Copy All Right Reserved by Bibek!
+      </footer>
+    </div>
+  </body>
+</html>
